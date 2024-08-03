@@ -46,11 +46,15 @@ public class CircleOperation {
 
 	public static void main(String[] args) {
 		
-		//creating object to circle class
+		//  creating object to Circle class
 		Circle circleOne = new Circle();
+		//  method for input of radius
 		circleOne.inputRadius();
+		//  method to display radius of circle
 		circleOne.displayRadius();
+		//  method of perimeter
 		circleOne.calculatePerimeter();
+		//  method of area
 		circleOne.calculateArea();
 		
 
