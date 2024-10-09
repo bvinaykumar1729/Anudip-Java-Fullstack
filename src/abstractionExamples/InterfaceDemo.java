@@ -2,9 +2,9 @@ package abstractionExamples;
 //created threeDFigure interface
 interface ThreeDFigure{
 	//created abstract methods curvedsurfaceArea,totalsurfacArea,volume
-	public abstract void curvedsurfaceArea(float radius,float height);
-	public abstract void totalsurfacArea(float radius,float height);
-	public abstract void volume(float radius,float height);
+	public  void curvedsurfaceArea(float radius,float height);
+	public  void totalsurfacArea(float radius,float height);
+	public  void volume(float radius,float height);
 
 }
 //implementing ThreeDFigure interface by Cylinder class
