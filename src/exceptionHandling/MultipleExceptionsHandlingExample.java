@@ -3,6 +3,7 @@ package exceptionHandling;
 public class MultipleExceptionsHandlingExample {
 
 	public static void main(String[] args) {
+		//declaring an integer type array
 						int[] numbers= {24,45,0,90,55};
 				int num1 = 34;
 				System.out.println("Division of numbers");
