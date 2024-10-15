@@ -54,6 +54,7 @@ public class ThrowsKeyWordExample
 		}
 		catch(NegativeAgeException obj)
 		{
+			//printing exception object
 			System.out.println(obj);
 		}
 		
