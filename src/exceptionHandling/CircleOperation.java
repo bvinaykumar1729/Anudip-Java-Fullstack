@@ -20,7 +20,7 @@ class Circle {
 	double perimeter;
 
 	// method for area calculate of circle
-	public void calcualateAreaOfCircle(double radius) {
+	public void calcualateArea(double radius) {
 		this.radius = radius;
 
 		this.area = PI * (radius * radius);
@@ -28,7 +28,7 @@ class Circle {
 	}
 
 	//method for perimeter calculate of circle
-	public void calculatePerimeterOfCircle(double radius) {
+	public void calculatePerimeter(double radius) {
 		this.radius = radius;
 
 		this.perimeter = 2 * PI * radius;
@@ -50,8 +50,8 @@ public class CircleOperation  {
 			}
              //Object of Circle class
 			Circle circle = new Circle();
-			circle.calcualateAreaOfCircle(radius);
-			circle.calculatePerimeterOfCircle(radius);
+			circle.calcualateArea(radius);
+			circle.calculatePerimeter(radius);
 
 		} catch (RadiusException exceptionObject) {
 			System.err.println(exceptionObject.getMessage());
